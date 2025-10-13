@@ -36,7 +36,7 @@ def list_func(command):
         c = command[1:]
         for node in reversed(stack_list):
             if node.data == c:
-                print("{c} is in the list.")
+                print(f"{c} is in the list.")
                 print(node)
                 break
         else:
